@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: palatino, sans-serif;
+  background: #0b0b0f;
+  color: #fff;
+}
+.container { max-width: 1000px; margin: auto; padding: 20px; }
+.header { background: #12121a; padding: 15px 0; }
+.nav { display: flex; justify-content: space-between; align-items: center; }
+.brand-logo { background: #e0ff66; color:#000; padding:8px; border-radius:6px; font-weight:bold; }
+.menu a { margin: 0 10px; color: #fff; text-decoration: none; }
+.menu a[aria-current="page"] { text-decoration: underline; }
+.hero { padding: 50px 0; }
+.hero-card { background: #1e1e29; padding: 20px; border-radius: 10px; }
+.hero-image { background: gray; min-height: 200px; border-radius: 10px; }
+.grid { display: grid; gap: 20px; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.card { background: #1e1e29; padding: 15px; border-radius: 10px; }
+.form .input { width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 8px; border:none; }
+.btn { padding: 10px 15px; border-radius: 8px; border:none; cursor:pointer; }
+.btn-primary { background:#e0ff66; color:#000; font-weight:bold; }
+.btn-ghost { background:transparent; border:1px solid #fff; color:#fff; }
+.footer { text-align:center; padding:20px; background:#12121a; margin-top:40px; }
